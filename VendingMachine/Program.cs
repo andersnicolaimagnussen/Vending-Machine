@@ -31,7 +31,7 @@ namespace ConsoleApplication10
 
             foreach (var soda in vm.VmStorage.Sodas)
             {
-                Console.WriteLine($"id : {soda.Id} {soda.Name} prices : {soda.Price}");
+                Console.WriteLine($"id : {soda.Id} {soda.Name} price : {soda.Price}");
                 
             }
 
